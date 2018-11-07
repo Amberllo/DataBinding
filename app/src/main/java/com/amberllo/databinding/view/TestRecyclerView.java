@@ -25,13 +25,10 @@ public class TestRecyclerView extends RecyclerView {
         adapter = new TestAdapter();
         setLayoutManager(new LinearLayoutManager(context));
         setAdapter(adapter);
+    }
 
-        List<Item> items = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            items.add(new Item("第" + i + "行"));
-        }
-
-        adapter.refresh(items);
+    public void refreshList(List<Item> itemData) {
+        adapter.refresh(itemData);
     }
 
 
