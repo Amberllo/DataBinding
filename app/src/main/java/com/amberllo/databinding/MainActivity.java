@@ -8,8 +8,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
-
 import com.amberllo.databinding.databinding.ActivityMainBinding;
 import com.amberllo.databinding.presenter.MainPresenter;
 import com.tbruyelle.rxpermissions2.RxPermissions;
